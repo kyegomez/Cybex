@@ -8,7 +8,8 @@ Autonomously generate high-quality unit tests for entire repositories, just plug
 `pip install cybex`
 
 
-# Architecture
+## Usage
+
 
 # License
 MIT

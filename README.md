@@ -9,7 +9,17 @@ Autonomously generate high-quality unit tests for entire repositories, just plug
 
 
 ## Usage
+```python
+from cybex import TestGenerator
 
+# Example usage:
+test_generator = TestGenerator(
+    repo_url="https://github.com/kyegomez/exa", 
+    api_key=""
+)
+test_generator.download()
+test_generator.generate_tests()
+```
 
 # License
 MIT

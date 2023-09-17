@@ -3,7 +3,7 @@ import openai
 import time
 import logging
 
-class OpenAITestGenerator:
+class OpenAI:
     def __init__(
         self,
         api_key,
